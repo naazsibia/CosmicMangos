@@ -5,26 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cosmic Mangos</title>
   <link rel="stylesheet" href="assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Welcome to Cosmic Mangos</h1>
-    <p>Your source for juicy mango blogs and cosmic space facts!</p>
-    <nav>
-      <ul>
-        <li><a href="blog/mangos.html">Mango Blogs</a></li>
-        <li><a href="blog/space.html">Space Facts</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>Cosmic Mangos</h1>
+      <p>Your source for juicy mango blogs and cosmic space insights!</p>
+      <nav>
+        <ul>
+          <li><a href="blog/mangos.html">Mango Blogs</a></li>
+          <li><a href="blog/space.html">Space Facts</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  
-  <section id="about">
-    <h2>About Cosmic Mangos</h2>
-    <p>This website is a fun experiment in mixing two unlikely topics: mangos and space. Whether you’re here for the delicious details of the mango world or to explore fascinating space facts, there’s something for everyone!</p>
-  </section>
-  
+
+  <!-- <section class="hero">
+    <div class="hero-content container">
+      <h2>Where Tropical Flavor Meets the Cosmos</h2>
+      <p>Discover rarely known facts and extraordinary insights from the world of mangos and the vast universe beyond.</p>
+    </div>
+  </section> -->
+
+  <main class="container">
+    <section id="about">
+      <h2>About Cosmic Mangos</h2>
+      <p>Cosmic Mangos is a unique blend of two fascinating worlds: the luscious allure of mangos and the awe-inspiring mysteries of space. We bring you engaging articles, rare facts, and deep dives into subjects that spark curiosity and delight.</p>
+    </section>
+
+    <section id="featured-posts">
+      <h2>Featured Posts</h2>
+      <div class="posts-grid">
+        <div class="post-card">
+          <img src="assets/images/mango.jpg" alt="A ripe mango">
+          <h3>Mango History & Health</h3>
+          <p>Learn about the ancient legacy and surprising health benefits of mangos.</p>
+          <a href="blog/mangos.html">Read More</a>
+        </div>
+        <div class="post-card">
+          <img src="assets/images/galaxy.jpg" alt="Galaxy">
+          <h3>Cosmic Mysteries</h3>
+          <p>Dive into space phenomena and rare astronomical facts that will blow your mind.</p>
+          <a href="blog/space.html">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="rare-facts">
+      <h2>Rarely Known Facts</h2>
+      <ul>
+        <li><strong>Neutron Stars:</strong> Some can spin over 600 times per second, creating extreme gravitational forces.</li>
+        <li><strong>Diamond Rain:</strong> Certain exoplanets might experience diamond rain due to high pressure and carbon-rich atmospheres.</li>
+        <li><strong>Mango Traditions:</strong> In ancient cultures, mango trees symbolized eternal love and prosperity.</li>
+        <li><strong>Mango Enzyme:</strong> Mangos contain amylase, which aids digestion and helps reduce inflammation.</li>
+      </ul>
+    </section>
+  </main>
+
   <footer>
-    <p>&copy; 2025 Cosmic Mangos. All rights reserved.</p>
+    <div class="container">
+      <p>&copy; 2025 Cosmic Mangos. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
